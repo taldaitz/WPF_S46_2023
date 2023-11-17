@@ -1,0 +1,9 @@
+﻿<Application x:Class="Exercice2WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Exercice2WPF"
+             StartupUri="ContactWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

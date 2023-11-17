@@ -1,0 +1,25 @@
+﻿<Window x:Class="Exercice1WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercice1WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="59,51,0,0" VerticalAlignment="Top" Width="100" Source="/logo.png"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="293,92,35,32">
+            <Label Content="Nom :" Margin="19,44,381,234" FontWeight="Bold"/>
+        </Border>
+        <Label Content="Prénom : " HorizontalAlignment="Left" Margin="314,174,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="364,142,0,0" TextWrapping="Wrap" Text="Aldaitz" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,179,0,0" TextWrapping="Wrap" Text="Thomas" VerticalAlignment="Top"/>
+        <ListBox Margin="591,203,75,154">
+            <ListBoxItem Content="Formateur"/>
+            <ListBoxItem Content="Développeur"/>
+        </ListBox>
+        <Label Content="Rôles" HorizontalAlignment="Left" Margin="620,169,0,0" VerticalAlignment="Top"/>
+    </Grid>
+    
+</Window>
